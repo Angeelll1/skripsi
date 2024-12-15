@@ -1,3 +1,24 @@
+RUN PROGRAM
+====================================================================
+1. Clone
+2. Clone
+3. Clone
+4. Buka Terminal pada Laptop
+- jalankan 'ipconfig'
+- lihat port IPv4 Address. . . . . . . . . . . : *IP Anda*
+5. Jalankan flutter_sales dengan
+  - Buka file URL.dart (ctrl+p, ketik URL.dart)
+  - Ubah IPnya dengan IP Anda namun jangan menghapus portnya (:3000 dan :5000)
+  - save
+  - flutter build apk
+6. Jalankan Javascript
+  - npm start
+
+7. Jalankann app.py
+  - ubah HOST pada line code terakhir sesiao dengan IPv4 Anda
+    app.run(host='10.10.61.114', port=5000, debug=True)
+  - python app.py
+
 Install PostgreSQL
 ========================================================================
 1. Download PostgreSQL
@@ -5,7 +26,7 @@ https://www.enterprisedb.com/downloads/postgres-postgresql-downloads
 
 2. Set up PostgreSQL
 
-4. Buka SQL Shell (psql), untuk membuat koneksi ke database
+3. Buka SQL Shell (psql), untuk membuat koneksi ke database
 Tekan ENTER 
 - Server [localhost]: *Tekan ENTER*
 - Database [postgres]: *Tekan ENTER* 
@@ -22,7 +43,7 @@ https://dbeaver.io/files/dbeaver-ce-latest-x86_64-setup.exe
 
 2. set up dbeaver
 
-4. Buat koneksi baru
+3. Buat koneksi baru
 - pilih PostgreSQL
 - isi form (sesuai pada saat isntall postgresql)
 Host = localhost
@@ -97,3 +118,28 @@ CREATE TABLE public.t_chiller_detection (
 	detections varchar NULL,
 	CONSTRAINT t_chiller_detection_unique UNIQUE (docno)
 );
+
+Install Flutter
+====================================================================
+1. Download SDK Flutter
+https://storage.googleapis.com/flutter_infra_release/releases/stable/windows/flutter_windows_3.27.0-stable.zip
+
+2. Buat directory dev pada C:\Users\{username}
+3. Extract file zip SDK ke dalam directory dev tadi
+4. Tambahkan PATH variable
+5. Click Advanced System Settings > Advanced > Environment Variables
+6. Dibagian User variables for (username) tambahkan '%USERPROFILE%\dev\flutter\bin'
+7. Kemudian Move Up sampai PATH tersebut berada pada list pertama
+8. Klik OK
+
+Install Android Studio
+===================================================================
+1. Download Android Studio .exe
+https://redirector.gvt1.com/edgedl/android/studio/install/2024.2.1.12/android-studio-2024.2.1.12-windows.exe
+
+Install VS Code
+====================================================================
+1. Download VS Code
+https://code.visualstudio.com/sha/download?build=stable&os=win32-x64-user
+
+2. Tambahkan Extensions Flutter dan Android IOS Emulator
