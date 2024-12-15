@@ -14,8 +14,9 @@ Username [postgres]: *Tekan ENTER*
 Password for user postgres: admin
 
 notes: untuk password disesuaikan saja
-========================================================================
+
 Install Dbeaver dan Buat Koneksi
+========================================================================
 1. install dbeaver dari link berikut:
 https://dbeaver.io/files/dbeaver-ce-latest-x86_64-setup.exe
 
@@ -30,13 +31,13 @@ username = postgres
 password = admin
 - Test Connection 
 - Finish
-========================================================================
-Buat Schema
 
+Buat Schema
+========================================================================
 CREATE SCHEMA public AUTHORIZATION postgres;
 
 Buat Table dan isi tabel dengan data
-
+========================================================================
 1. m_chiller
 CREATE TABLE public.m_chiller (
 	chiller_id varchar NOT NULL,
