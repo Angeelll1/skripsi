@@ -1,4 +1,5 @@
 Install PostgreSQL
+========================================================================
 1. Download PostgreSQL
 https://www.enterprisedb.com/downloads/postgres-postgresql-downloads
 
