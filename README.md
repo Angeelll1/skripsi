@@ -1,8 +1,8 @@
 RUN PROGRAM
 ====================================================================
-1. Clone
-2. Clone
-3. Clone
+1. Clone https://github.com/Angeelll1/flutter_sales
+2. Clone https://github.com/Angeelll1/API_DATABASE
+3. Clone https://github.com/Angeelll1/skripsi
 4. Buka Terminal pada Laptop
 - jalankan 'ipconfig'
 - lihat port IPv4 Address. . . . . . . . . . . : *IP Anda*
