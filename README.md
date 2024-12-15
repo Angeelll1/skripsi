@@ -7,11 +7,11 @@ https://www.enterprisedb.com/downloads/postgres-postgresql-downloads
 
 4. Buka SQL Shell (psql), untuk membuat koneksi ke database
 Tekan ENTER 
-Server [localhost]: *Tekan ENTER*
-Database [postgres]: *Tekan ENTER* 
-Port [5432]:*Tekan ENTER*
-Username [postgres]: *Tekan ENTER*
-Password for user postgres: admin
+- Server [localhost]: *Tekan ENTER*
+- Database [postgres]: *Tekan ENTER* 
+- Port [5432]:*Tekan ENTER*
+- Username [postgres]: *Tekan ENTER*
+- Password for user postgres: admin
 
 notes: untuk password disesuaikan saja
 
